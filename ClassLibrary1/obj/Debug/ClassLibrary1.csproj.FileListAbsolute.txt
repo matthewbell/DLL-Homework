@@ -1,0 +1,15 @@
+H:\CIS355\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+H:\CIS355\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+H:\CIS355\ClassLibrary1\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+H:\CIS355\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+H:\CIS355\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+H:\CIS355\dllWork\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+H:\CIS355\dllWork\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+H:\CIS355\dllWork\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+H:\CIS355\dllWork\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+H:\CIS355\dllWork\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\FILES\SCHOOL\CIS355\dllWork-pt1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\FILES\SCHOOL\CIS355\dllWork-pt1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\FILES\SCHOOL\CIS355\dllWork-pt1\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\FILES\SCHOOL\CIS355\dllWork-pt1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\FILES\SCHOOL\CIS355\dllWork-pt1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
