@@ -37,32 +37,31 @@ namespace ConsoleApplication1
                    dataChoice = "temp=temp";
                    break;
            }
-           string xmlResult = "";
+           string results = "";
            switch (cityChoice)
            {
                case "1":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
                    break;
                case "2":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("40.71", "-73.98", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("40.71", "-73.98", dataChoice);
                    break;
                case "3":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("42.36", "-71.07", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("42.36", "-71.07", dataChoice);
                    break;
                case "4":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("25.76", "-80.21", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("25.76", "-80.21", dataChoice);
                    break;
                case "5":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("30.27", "-97.74", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("30.27", "-97.74", dataChoice);
                    break;
                default:
                    Console.WriteLine("Defaulting to Burlington, VT");
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
                    break;
            }
 
-           string processedResult = MyDynamicLibrary.weatherRESTquery.formatXML(xmlResult);
-           Console.WriteLine(processedResult);
+           Console.WriteLine(results);
 
            Console.WriteLine("Press any key to continue.");
            Console.ReadKey();
@@ -96,32 +95,30 @@ namespace ConsoleApplication1
                    dataChoice = "temp=temp";
                    break;
            }
-           xmlResult = "";
+           results = "";
            switch (cityChoice)
            {
                case "1":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
                    break;
                case "2":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("40.71", "-73.98", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("40.71", "-73.98", dataChoice);
                    break;
                case "3":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("42.36", "-71.07", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("42.36", "-71.07", dataChoice);
                    break;
                case "4":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("25.76", "-80.21", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("25.76", "-80.21", dataChoice);
                    break;
                case "5":
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("30.27", "-97.74", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("30.27", "-97.74", dataChoice);
                    break;
                default:
                    Console.WriteLine("Defaulting to Burlington, VT");
-                   xmlResult = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
+                   results = MyDynamicLibrary.weatherRESTquery.Get_URI("44.47", "-73.23", dataChoice);
                    break;
            }
-
-           processedResult = MyDynamicLibrary.weatherRESTquery.formatXML(xmlResult);
-           Console.WriteLine(processedResult);
+           Console.WriteLine(results);
            //pause again
            Console.WriteLine("Press any key to exit.");
            Console.ReadKey();

@@ -43,7 +43,7 @@ namespace MyDynamicLibrary
                 Console.WriteLine("An error occurred: " + e.Message);
                 System.Threading.Thread.Sleep(5000);
             }
-            return responseString;
+            return formatXML(responseString);
 
         }
 

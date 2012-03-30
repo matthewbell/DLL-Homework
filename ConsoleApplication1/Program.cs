@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-//rt click and build class lib to dll, add refrence to dll in app, add using line in app, and rt click+set this application as StartUp Project
-//using MyDynamicLibrary;
 
 
 namespace ConsoleApplication1
@@ -12,7 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            try //try and catch is ok for this but do not use for high performance apps, like a game
+            try 
             {
                 System.Reflection.AssemblyName testAssembly
                     = System.Reflection.AssemblyName.GetAssemblyName("ClassLibrary1.dll");
